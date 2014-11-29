@@ -1,7 +1,7 @@
 <div class="three columns">
 
   {% if DISPLAY_PAGES_ON_SIDEBAR %}
-  <h4>Pages</h4>
+  <h4>Статьи</h4>
   <ul>
     {% for title, link in MENUITEMS %}
     <li><a href="{{ link }}">{{ title }}</a></li>
@@ -23,7 +23,7 @@
   {% endif %}
 
   {% if DISPLAY_CATEGORIES_ON_SIDEBAR %}
-  <h4>Categories</h4>
+  <h4>Категории</h4>
   {% if categories %}
   <ul>
    {% for cat, null in categories %}
@@ -33,7 +33,7 @@
  {% endif %}
  {% endif %}
 
- <h4>Tags</h4>
+ <h4>Теги</h4>
  {% if tags %}
  <ul>
    {% for tag in tag_cloud %}
