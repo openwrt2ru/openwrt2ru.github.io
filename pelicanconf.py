@@ -28,10 +28,8 @@ LINKS = (('OpenWRT', 'http://openwrt.org/'),)
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-MENUITEMS = (('О проекте', '/about.html'),
-             ('Загрузки', '/downloads.html'),
-             ('Документация', '/documentation.html'),
-             )
+MENUITEMS = (('О проекте', '/category/about.html'),
+             ('Тьюториалы', '/category/tutorials.html'),)
 
 PLUGINS = [
 	'pelican_vimeo',
@@ -39,6 +37,9 @@ PLUGINS = [
 
 DEFAULT_PAGINATION = 10
 USE_FOLDER_AS_CATEGORY = True
+
+DISPLAY_PAGES_ON_SIDEBAR = False
+DISPLAY_CATEGORIES_ON_SIDEBAR = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
