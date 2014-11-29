@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>OpenWRT to Russian</title><link href="http://openwrt2ru.github.io/" rel="alternate"></link><link href="http://openwrt2ru.github.io/feeds/about.atom.xml" rel="self"></link><id>http://openwrt2ru.github.io/</id><updated>2010-11-29T23:37:00+03:00</updated><entry><title>О проекте</title><link href="http://openwrt2ru.github.io/about.html" rel="alternate"></link><updated>2010-11-29T23:37:00+03:00</updated><author><name>openwrt2ru Team</name></author><id>tag:openwrt2ru.github.io,2010-11-29:about.html</id><summary type="html">&lt;p&gt;Кто и зачем это делает.&lt;/p&gt;
+</summary></entry></feed>
