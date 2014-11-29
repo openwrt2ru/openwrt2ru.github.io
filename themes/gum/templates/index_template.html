@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<section id="content">
+  {% block content_title %}
+  {% endblock %}
+  <div class="row">
+    <div class="eleven columns">
+      {% block article_list %}
+      {% endblock %}
+    <!-- /#posts-list -->
+    </div>
+    <!-- /.eleven.columns -->
+  {% include 'sidebar.html' %}
+  </div>
+<!-- /.row -->
+{% include 'pagination.html' %}
+</section>
+<!-- /#content -->
+{% endblock content %}
