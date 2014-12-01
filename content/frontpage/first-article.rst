@@ -3,7 +3,6 @@
 
 :date: 2014-11-28 23:28
 :tags: vimeo
-:category: frontpage
 :slug: first-article
 
 
