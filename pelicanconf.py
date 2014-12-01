@@ -29,7 +29,8 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 MENUITEMS = (('О проекте', '/category/about.html'),
-             ('Тьюториалы', '/category/tutorials.html'),)
+             ('Тьюториалы', '/category/tutorials.html'),
+             ('ЧаВо', '/category/faq.html'),)
 
 PLUGINS = [
 	'pelican_vimeo',
