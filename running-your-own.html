@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 
-  <title>Первая запись</title>
+  <title>Как сгенерить HTML на своем компьютере</title>
   <meta charset="utf-8" />
 
   <link href="http://openwrt2ru.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="OpenWRT to Russian Full Atom Feed" />
@@ -10,7 +10,7 @@
 
 
 
-  <link href="http://openwrt2ru.github.io/feeds/frontpage.atom.xml" type="application/atom+xml" rel="alternate" title="OpenWRT to Russian Categories Atom Feed" />
+  <link href="http://openwrt2ru.github.io/feeds/faq.atom.xml" type="application/atom+xml" rel="alternate" title="OpenWRT to Russian Categories Atom Feed" />
 
 
 
@@ -50,22 +50,54 @@
     <div class="eleven columns">
       <header>
         <h2 class="entry-title">
-          <a href="http://openwrt2ru.github.io/first-article.html" rel="bookmark"
-          title="Постоянная ссылка Первая запись">Первая запись</a>
+          <a href="http://openwrt2ru.github.io/running-your-own.html" rel="bookmark"
+          title="Постоянная ссылка Как сгенерить HTML на своем компьютере">Как сгенерить HTML на своем компьютере</a>
         </h2>
         
       </header>
       <footer class="post-info">
-        <abbr class="published" title="2014-11-28T23:28:00+03:00">
-          Пт. 28 Ноябрь 2014
+        <abbr class="published" title="2014-12-01T23:41:00+03:00">
+          Пн. 01 Декабрь 2014
         </abbr>
         <address class="vcard author">By 
-          <a class="url fn" href="http://openwrt2ru.github.io/author/openwrt2ru-team.html"> openwrt2ru Team</a>
+          <a class="url fn" href="http://openwrt2ru.github.io/author/dim.html"> dim</a>
         </address>
       </footer>
       <!-- /.post-info -->
       <div class="entry-content">
-        <div class="vimeo" align="left"><iframe width="420" height="315" src="https://player.vimeo.com/video/112923420" frameborder="0"></iframe></div>
+        <p>Процедура сборки HTML страниц сайта на своем компьютере очень проста.</p>
+<p><strong>ВНИМАНИЕ!</strong> <em>Пока что описываемый процесс подходит только для Linux.</em></p>
+<p>Итак, по шагам.</p>
+<ol class="arabic simple">
+<li>Выписать локально репозиторий:</li>
+</ol>
+<div class="highlight"><pre><span class="gp">$</span> git clone https://github.com/openwrt2ru/openwrt2ru.github.io
+</pre></div>
+<!--  -->
+<ol class="arabic simple" start="2">
+<li>Установить pip:</li>
+</ol>
+<div class="highlight"><pre><span class="gp">$</span> sudo apt-get install pip
+</pre></div>
+<!--  -->
+<ol class="arabic simple" start="3">
+<li>Зайти в каталог репозитория и собрать virtualenv:</li>
+</ol>
+<div class="highlight"><pre><span class="gp">$</span> make venv
+</pre></div>
+<!--  -->
+<ol class="arabic simple" start="4">
+<li>Подредактировать нужные страницы сайта (в ветке content). Разумеется, если хотим просто сгенерить локально HTML то этот шаг можно пропустить.</li>
+<li>Запустить локальный сервер:</li>
+</ol>
+<div class="highlight"><pre><span class="gp">$</span> make serve
+</pre></div>
+<!--  -->
+<ol class="arabic simple" start="6">
+<li>Открыть <a class="reference external" href="http://127.0.0.1:8000">http://127.0.0.1:8000</a> и посмотреть что получилось.</li>
+<li>Остановить сервер можно просто нажав &lt;Ctrl&gt;-C в консоли, где он был запущен.</li>
+</ol>
+
       </div>
       <!-- /.entry-content -->
 
