@@ -1,0 +1,6 @@
+pelican == 3.5.0
+pygments
+typogrify
+ghp-import == 0.4.1
+pelican-vimeo
+pelican-youtube
