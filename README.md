@@ -1,58 +1,44 @@
 openwrt2ru.github.io
 ====================
 
-
 For local build
 
+Установка для win машины:
 
-Установка для win машины
+### Установка Python
 
-Установка Python
-----------------
-
-Установить Python: https://www.python.org/downloads/
+Скачиваем дистрибутив Python: https://www.python.org/downloads/
 (тестировалось под 2.7)
 
+Установить менеджер пакетов `pip` или `easy_install`.
 
-Установить менеджер пакетов pip или easy_install.
-
-Установка easy_install
-----------------------
+### Установка easy_install
 
 Информация https://pypi.python.org/pypi/setuptools#windows-simplified
 
-* download https://bootstrap.pypa.io/ez_setup.py
-* run "python ez_setup.py"
+* скачиваем файл https://bootstrap.pypa.io/ez_setup.py
+* запускаем `python ez_setup.py`
 
-Установка pelican через easy_install
-------------------------------------
+#### Установка pelican через easy_install
 
     easy_install pelican
 
-или
-
-Установка pip
--------------
+### Установка pip
 
 Информация http://pip.readthedocs.org/en/latest/installing.html#install-pip
 
-* download https://bootstrap.pypa.io/get-pip.py
-* run "python get-pip.py"
+* скачиваем файл https://bootstrap.pypa.io/get-pip.py
+* запускаем "python get-pip.py"
 
-Установка pelican через pip
----------------------------
+#### Установка pelican через pip
 
     pip pelican
 
-
-Установка плагина "vimeo" для pelican
--------------------------------------
+#### Установка плагина "vimeo" для pelican
 
     pip install pelican-vimeo
 
-
-Получение исходного кода сайта
-------------------------------
+#### Получение исходного кода сайта
 
 Склонировать этот репозиторий
 
@@ -60,19 +46,15 @@ For local build
     
 Или скачать zip архив со страницы github
 
-
-Генерация статических страниц
------------------------------
+#### Генерация статических страниц
 
 Запускаем консольную команду:
 
     _generate.bat
 
-Файлы создаются в папке 'output'.
+Файлы создаются в папке `output`.
 
-
-Запуск веб-сервера
-------------------
+#### Запуск веб-сервера
 
 Для просмотра страниц запускаем веб-сервер:
 
@@ -80,8 +62,6 @@ For local build
 
 (можно поправить в bat-файле PYTHON_EXE - на python.ext)
 
-
-Просмотр результата
--------------------
+#### Просмотр результата
 
 Открываем в браузере `http://localhost:8000`
