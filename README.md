@@ -21,8 +21,8 @@ For local build
 
 Информация https://pypi.python.org/pypi/setuptools#windows-simplified
 
-# download https://bootstrap.pypa.io/ez_setup.py
-# run "python ez_setup.py"
+* download https://bootstrap.pypa.io/ez_setup.py
+* run "python ez_setup.py"
 
 Установка pelican через easy_install
 ------------------------------------
@@ -36,8 +36,8 @@ For local build
 
 Информация http://pip.readthedocs.org/en/latest/installing.html#install-pip
 
-# download https://bootstrap.pypa.io/get-pip.py
-# run "python get-pip.py"
+* download https://bootstrap.pypa.io/get-pip.py
+* run "python get-pip.py"
 
 Установка pelican через pip
 ---------------------------
