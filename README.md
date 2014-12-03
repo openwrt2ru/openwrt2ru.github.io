@@ -5,28 +5,83 @@ openwrt2ru.github.io
 For local build
 
 
-Windows:
+Установка для win машины
 
-Install Python
+Установка Python
+----------------
 
-easy_install pelican
-
-[or]
-
-pip pelican
+Установить Python: https://www.python.org/downloads/
+(тестировалось под 2.7)
 
 
-pip install pelican-vimeo
+Установить менеджер пакетов pip или easy_install.
+
+Установка easy_install
+----------------------
+
+Информация https://pypi.python.org/pypi/setuptools#windows-simplified
+
+# download https://bootstrap.pypa.io/ez_setup.py
+# run "python ez_setup.py"
+
+Установка pelican через easy_install
+------------------------------------
+
+    easy_install pelican
+
+или
+
+Установка pip
+-------------
+
+Информация http://pip.readthedocs.org/en/latest/installing.html#install-pip
+
+# download https://bootstrap.pypa.io/get-pip.py
+# run "python get-pip.py"
+
+Установка pelican через pip
+---------------------------
+
+    pip pelican
 
 
+Установка плагина "vimeo" для pelican
+-------------------------------------
 
-Clone this github repository (git clone git@github.com:openwrt2ru/openwrt2ru.github.io.git) or download zip.
+    pip install pelican-vimeo
 
 
-Generate static files (in 'output'): _generate.bat
+Получение исходного кода сайта
+------------------------------
 
-start web server: _start_server.bat
+Склонировать этот репозиторий
 
-(configure PYTHON_EXE path in bat file)
+    git clone git@github.com:openwrt2ru/openwrt2ru.github.io.git
+    
+Или скачать zip архив со страницы github
 
-open http://localhost:8000
+
+Генерация статических страниц
+-----------------------------
+
+Запускаем консольную команду:
+
+    _generate.bat
+
+Файлы создаются в папке 'output'.
+
+
+Запуск веб-сервера
+------------------
+
+Для просмотра страниц запускаем веб-сервер:
+
+    _start_server.bat
+
+(можно поправить в bat-файле PYTHON_EXE - на python.ext)
+
+
+Просмотр результата
+-------------------
+
+Открываем в браузере `http://localhost:8000`
