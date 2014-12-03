@@ -1,0 +1,1 @@
+pelican content --output output --settings pelicanconf.py
