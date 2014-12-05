@@ -5,10 +5,10 @@
   <div class="row">
     <div class="eleven columns">
       <header>
-        <h2 class="entry-title">
+        <h3 class="entry-title">
           <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
           title="Постоянная ссылка {{ article.title|striptags }}">{{ article.title }}</a>
-        </h2>
+        </h3>
         {% import 'translations.html' as translations with context %}
         {{ translations.translations_for(article) }}
       </header>
@@ -32,7 +32,7 @@
 
       {% if DISQUS_SITENAME %}
       <div class="comments">
-        <h3>Comments</h3>
+        <h3>Комментарии</h3>
         <div id="disqus_thread"></div>
         <script type="text/javascript">
           var disqus_identifier = "{{ article.url }}";
@@ -46,7 +46,7 @@
       {% endif %}
 
       {% if JUVIA_ID %}
-      <h3>Comments</h3>
+      <h3>Комментарии</h3>
       <div id="comments"></div>
       <script type="text/javascript" class="juvia">
        (function() {
