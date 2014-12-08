@@ -4,19 +4,19 @@
   {% for article in articles_page.object_list %}
   {% if article.category == 'frontpage' %}
   <li>
-  <article class="hentry">
-    <header>
-      <h3 class="entry-title">
-        <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
-      </h3>
-    </header>
-    <!-- /.post-info -->
-    <div class="entry-content"> {{ article.content }} </div>
-    <!-- /.entry-content -->
-  </article>
+    <article class="hentry">
+      <header>
+        <h3 class="entry-title">
+          <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="{{ article.title|striptags }}">{{ article.title }}</a>
+        </h3>
+      </header><!-- /.post-info -->
+
+      <div class="entry-content">
+        {{ article.content }}
+      </div><!-- /.entry-content -->
+    </article>
   </li>
   {% endif %}
   {% endfor %}
-</ol>
-<!-- /#posts-list -->
+</ol><!-- /#posts-list -->
 {% endblock article_list %}

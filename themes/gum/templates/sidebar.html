@@ -9,13 +9,17 @@
 
     {% if DISPLAY_PAGES_ON_MENU %}
     {% for p in PAGES %}
-    <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+      <li{% if p == page %} class="active"{% endif %}>
+        <a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
+      </li>
     {% endfor %}
     {% else %}
 
     {% if DISPLAY_CATEGORIES_ON_MENU %}
     {% for cat, null in categories %}
-    <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+      <li{% if cat == category %} class="active"{% endif %}>
+        <a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a>
+      </li>
     {% endfor %}
     {% endif %}
     {% endif %}
@@ -26,28 +30,34 @@
   <h4>Категории</h4>
   {% if categories %}
   <ul>
-   {% for cat, null in categories %}
-   <li><a href="{{ SITEURL }}/{{ cat.url|e }}">{{ cat }}</a></li>
+    {% for cat, null in categories %}
+    <li>
+      <a href="{{ SITEURL }}/{{ cat.url|e }}">{{ cat }}</a>
+    </li>
    {% endfor %}
- </ul>
- {% endif %}
- {% endif %}
+  </ul>
+  {% endif %}
+  {% endif %}
 
- <h4>Теги</h4>
- {% if tags %}
- <ul class="tagcloud">
-   {% for tag in tag_cloud %}
-   <li class="tag-{{ tag.1 }}"><a href="{{ SITEURL }}/{{ tag.0.url }}">{{ tag.0|e }}</a></li>
-   {% endfor %}
- </ul>
- {% endif %}
+  <h4>Теги</h4>
+  {% if tags %}
+  <ul class="tagcloud">
+    {% for tag in tag_cloud %}
+    <li class="tag-{{ tag.1 }}">
+      <a href="{{ SITEURL }}/{{ tag.0.url }}">{{ tag.0|e }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
 
- {% if SOCIAL %}
- <nav class="widget">
+  {% if SOCIAL %}
+  <nav class="widget">
   <h4>Social</h4>
   <ul>
     {% for name, url in SOCIAL %}
-    <li><a href="{{ url|e }}">{{ name }}</a></li>
+    <li>
+      <a href="{{ url|e }}">{{ name }}</a>
+    </li>
     {% endfor %}
   </ul>
 </nav>

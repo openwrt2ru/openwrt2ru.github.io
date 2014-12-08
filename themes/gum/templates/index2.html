@@ -2,42 +2,46 @@
 {% block article_list %}
 <ol id="post-list">
   {% for article in articles_page.object_list %}
-  <li><article class="hentry">
-    <header>
-      <h3 class="entry-title">
-        <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
-      </h3>
-    </header>
-    <footer class="post-info">
-      <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
-      {% if article.authors %}
-      <address class="vcard author">Автор 
-        {% for author in article.authors|sort %}
-        <a class="url fn" href="{{ SITEURL }}/{{ author.url }}"> {{ author }}</a>
+  <li>
+    <article class="hentry">
+      <header>
+        <h3 class="entry-title">
+          <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="{{ article.title|striptags }}">{{ article.title }}</a>
+        </h3>
+      </header>
+
+      <footer class="post-info">
+        <abbr class="published" title="{{ article.date.isoformat() }}">
+          {{ article.locale_date }}
+        </abbr>
+        {% if article.authors %}
+        <address class="vcard author">Автор 
+          {% for author in article.authors|sort %}
+            <a class="url fn" href="{{ SITEURL }}/{{ author.url }}"> {{ author }}</a>
+          {% endfor %}
+        </address>
+        {% endif %}
+      </footer><!-- /.post-info -->
+
+      <div class="entry-content">
+        {{ article.summary }}
+      </div><!-- /.entry-content -->
+
+      <div class="pretty primary btn">
+        <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="{{ article.title|striptags }}">Читать дальше <i class="icon-arrow-right"></i></a>
+      </div>
+
+      <div class="row tag-row">
+        {% if article.tags %}
+        <span>Теги : </span>
+        {% for tag in article.tags %}
+          <a class="danger label" href="{{ SITEURL }}/{{ tag.url }}">{{ tag|e }}</a>
         {% endfor %}
-      </address>
-      {% endif %}
-    </footer>
-    <!-- /.post-info -->
+        {% endif %}
+      </div>
 
-    <div class="entry-content"> {{ article.summary }} </div>
-    <!-- /.entry-content -->
-
-    <div class="small primary btn">
-      <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">Читать дальше <i class="icon-arrow-right"></i></a>
-    </div>
-
-    <div class="row tag-row">
-      {% if article.tags %}
-      <span>Теги : </span>
-      {% for tag in article.tags %}
-      <a class="danger label" href="{{ SITEURL }}/{{ tag.url }}">{{ tag|e }}</a>
-      {% endfor %}
-      {% endif %}
-    </div>
-
-  </article></li>
+    </article>
+  </li>
   {% endfor %}
-</ol>
-<!-- /#posts-list -->
+</ol><!-- /#posts-list -->
 {% endblock article_list %}
