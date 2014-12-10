@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>OpenWRT to Russian</title><link href="http://openwrt2ru.github.io/" rel="alternate"></link><link href="http://openwrt2ru.github.io/feeds/glossary.atom.xml" rel="self"></link><id>http://openwrt2ru.github.io/</id><updated>2014-12-11T00:28:00+03:00</updated><entry><title>Словарь терминов</title><link href="http://openwrt2ru.github.io/glossary.html" rel="alternate"></link><updated>2014-12-11T00:28:00+03:00</updated><author><name>openwrt2ru Team</name></author><id>tag:openwrt2ru.github.io,2014-12-11:glossary.html</id><summary type="html">&lt;div class="section" id="buildroot"&gt;
+&lt;h2&gt;buildroot&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="toolchain"&gt;
+&lt;h2&gt;toolchain&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="uart"&gt;
+&lt;h2&gt;UART&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="jtag"&gt;
+&lt;h2&gt;JTAG&lt;/h2&gt;
+&lt;/div&gt;
+</summary></entry></feed>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>OpenWRT to Russian</title><link href="http://openwrt2ru.github.io/" rel="alternate"></link><link href="http://openwrt2ru.github.io/feeds/blog.atom.xml" rel="self"></link><id>http://openwrt2ru.github.io/</id><updated>2014-12-11T00:28:00+03:00</updated><entry><title>Сторонние проекты на OpenWRT</title><link href="http://openwrt2ru.github.io/foreign-projects.html" rel="alternate"></link><updated>2014-12-11T00:28:00+03:00</updated><author><name>openwrt2ru Team</name></author><id>tag:openwrt2ru.github.io,2014-12-11:foreign-projects.html</id><summary type="html">&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://habrahabr.ru/post/245103/"&gt;Обустраиваем хомяка или «OpenWrt уделывает прошивку от TP-LINK?». Часть 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://spritesmods.com/?art=clockradio&amp;amp;page=1"&gt;Linux-based clock radio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/g8ecj/irrigate"&gt;Irrigation controller&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</summary></entry></feed>

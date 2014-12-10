@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>OpenWRT to Russian</title><link href="http://openwrt2ru.github.io/" rel="alternate"></link><link href="http://openwrt2ru.github.io/feeds/all.atom.xml" rel="self"></link><id>http://openwrt2ru.github.io/</id><updated>2014-12-01T23:41:00+03:00</updated><entry><title>Как сгенерить HTML на своем компьютере</title><link href="http://openwrt2ru.github.io/running-your-own.html" rel="alternate"></link><updated>2014-12-01T23:41:00+03:00</updated><author><name>dim</name></author><id>tag:openwrt2ru.github.io,2014-12-01:running-your-own.html</id><summary type="html">&lt;p&gt;Процедура сборки HTML страниц сайта на своем компьютере очень проста.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>OpenWRT to Russian</title><link href="http://openwrt2ru.github.io/" rel="alternate"></link><link href="http://openwrt2ru.github.io/feeds/all.atom.xml" rel="self"></link><id>http://openwrt2ru.github.io/</id><updated>2014-12-11T00:28:00+03:00</updated><entry><title>Сторонние проекты на OpenWRT</title><link href="http://openwrt2ru.github.io/foreign-projects.html" rel="alternate"></link><updated>2014-12-11T00:28:00+03:00</updated><author><name>openwrt2ru Team</name></author><id>tag:openwrt2ru.github.io,2014-12-11:foreign-projects.html</id><summary type="html">&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://habrahabr.ru/post/245103/"&gt;Обустраиваем хомяка или «OpenWrt уделывает прошивку от TP-LINK?». Часть 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://spritesmods.com/?art=clockradio&amp;amp;page=1"&gt;Linux-based clock radio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/g8ecj/irrigate"&gt;Irrigation controller&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</summary></entry><entry><title>Словарь терминов</title><link href="http://openwrt2ru.github.io/glossary.html" rel="alternate"></link><updated>2014-12-11T00:28:00+03:00</updated><author><name>openwrt2ru Team</name></author><id>tag:openwrt2ru.github.io,2014-12-11:glossary.html</id><summary type="html">&lt;div class="section" id="buildroot"&gt;
+&lt;h2&gt;buildroot&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="toolchain"&gt;
+&lt;h2&gt;toolchain&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="uart"&gt;
+&lt;h2&gt;UART&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="jtag"&gt;
+&lt;h2&gt;JTAG&lt;/h2&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Как сгенерить HTML на своем компьютере</title><link href="http://openwrt2ru.github.io/running-your-own.html" rel="alternate"></link><updated>2014-12-01T23:41:00+03:00</updated><author><name>dim</name></author><id>tag:openwrt2ru.github.io,2014-12-01:running-your-own.html</id><summary type="html">&lt;p&gt;Процедура сборки HTML страниц сайта на своем компьютере очень проста.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;ВНИМАНИЕ!&lt;/strong&gt; &lt;em&gt;Пока что описываемый процесс подходит только для Linux.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Итак, по шагам.&lt;/p&gt;
 &lt;ol class="arabic simple"&gt;
@@ -31,6 +48,11 @@
 &lt;li&gt;Открыть &lt;a class="reference external" href="http://127.0.0.1:8000"&gt;http://127.0.0.1:8000&lt;/a&gt; и посмотреть что получилось.&lt;/li&gt;
 &lt;li&gt;Остановить сервер можно просто нажав &amp;lt;Ctrl&amp;gt;-C в консоли, где он был запущен.&lt;/li&gt;
 &lt;/ol&gt;
-</summary></entry><entry><title>Первая запись</title><link href="http://openwrt2ru.github.io/first-article.html" rel="alternate"></link><updated>2014-11-28T23:28:00+03:00</updated><author><name>openwrt2ru Team</name></author><id>tag:openwrt2ru.github.io,2014-11-28:first-article.html</id><summary type="html">&lt;div class="vimeo" align="left"&gt;&lt;iframe width="800" height="450" src="https://player.vimeo.com/video/112923420" frameborder="0"&gt;&lt;/iframe&gt;&lt;/div&gt;</summary><category term="vimeo"></category></entry><entry><title>О проекте</title><link href="http://openwrt2ru.github.io/about.html" rel="alternate"></link><updated>2010-11-29T23:37:00+03:00</updated><author><name>openwrt2ru Team</name></author><id>tag:openwrt2ru.github.io,2010-11-29:about.html</id><summary type="html">&lt;p&gt;Кто и зачем это делает.&lt;/p&gt;
+</summary></entry><entry><title>Первая запись</title><link href="http://openwrt2ru.github.io/first-article.html" rel="alternate"></link><updated>2014-11-28T23:28:00+03:00</updated><author><name>openwrt2ru Team</name></author><id>tag:openwrt2ru.github.io,2014-11-28:first-article.html</id><summary type="html">&lt;p&gt;На этом сайте собраны различные материалы, посвященные использованию OpenWRT:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;проекты, созданные энтузиастами и участниками&lt;/li&gt;
+&lt;li&gt;статьи по настройке и использованию&lt;/li&gt;
+&lt;/ul&gt;
+</summary></entry><entry><title>О проекте</title><link href="http://openwrt2ru.github.io/about.html" rel="alternate"></link><updated>2010-11-29T23:37:00+03:00</updated><author><name>openwrt2ru Team</name></author><id>tag:openwrt2ru.github.io,2010-11-29:about.html</id><summary type="html">&lt;p&gt;Кто и зачем это делает.&lt;/p&gt;
 </summary></entry><entry><title>Руководство по установке</title><link href="http://openwrt2ru.github.io/how-to-install.html" rel="alternate"></link><updated>2010-11-28T23:36:00+03:00</updated><author><name>openwrt2ru Team</name></author><id>tag:openwrt2ru.github.io,2010-11-28:how-to-install.html</id><summary type="html">&lt;p&gt;В этом туториале рассмотрим как быстро и безболезненно стартовать OpenWrt на базе серийного роутера MR3020.&lt;/p&gt;
 </summary><category term="howto"></category></entry></feed>
