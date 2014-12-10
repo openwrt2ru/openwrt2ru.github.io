@@ -28,9 +28,11 @@ LINKS = (('OpenWRT', 'http://openwrt.org/'),)
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-MENUITEMS = (('О проекте', '/category/about.html'),
-             ('Тьюториалы', '/category/tutorials.html'),
-             ('ЧаВо', '/category/faq.html'),)
+MENUITEMS = (('Блог', '/category/blog.html'),
+             ('Руководства', '/category/tutorials.html'),
+             ('Термины', '/category/glossary.html'),
+             ('FAQ', '/category/faq.html'),
+             ('О проекте', '/category/about.html'),)
 
 PLUGINS = [
 	'pelican_vimeo',
