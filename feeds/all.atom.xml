@@ -6,9 +6,13 @@
 &lt;/ul&gt;
 </summary></entry><entry><title>Словарь терминов</title><link href="http://openwrt2ru.github.io/glossary.html" rel="alternate"></link><updated>2014-12-11T00:28:00+03:00</updated><author><name>openwrt2ru Team</name></author><id>tag:openwrt2ru.github.io,2014-12-11:glossary.html</id><summary type="html">&lt;div class="section" id="buildroot"&gt;
 &lt;h2&gt;buildroot&lt;/h2&gt;
+&lt;p&gt;Buildroot - это набор make-файлов (Makefile) и патчей, которые вместе позволяют упростить подготовку исходников к компиляции и кросс-компиляцию тулчейна и корневой файловой системы для целевой платофрмы.&lt;/p&gt;
+&lt;p&gt;Подробнее можно прочитать в &lt;a class="reference external" href="https://downloads.openwrt.org/docs/buildroot-documentation.html"&gt;Buildroot Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="toolchain"&gt;
 &lt;h2&gt;toolchain&lt;/h2&gt;
+&lt;p&gt;Тулчейн - это набор инструментов, который позволяет собрать из исходников бинарный файл или целую файловую систему с файлами. Тулчейн состоит из программ для компиляции, компоновки и линковки, а также стандартной библиотеки С.&lt;/p&gt;
+&lt;p&gt;Подробнее можно прочитать в &lt;a class="reference external" href="https://downloads.openwrt.org/docs/buildroot-documentation.html"&gt;Buildroot Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="uart"&gt;
 &lt;h2&gt;UART&lt;/h2&gt;
