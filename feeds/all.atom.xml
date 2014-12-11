@@ -4,7 +4,7 @@
 &lt;li&gt;&lt;a class="reference external" href="http://spritesmods.com/?art=clockradio&amp;amp;page=1"&gt;Linux-based clock radio&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://github.com/g8ecj/irrigate"&gt;Irrigation controller&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</summary></entry><entry><title>Словарь терминов</title><link href="http://openwrt2ru.github.io/glossary.html" rel="alternate"></link><updated>2014-12-11T00:28:00+03:00</updated><author><name>openwrt2ru Team</name></author><id>tag:openwrt2ru.github.io,2014-12-11:glossary.html</id><summary type="html">&lt;div class="section" id="buildroot"&gt;
+</summary></entry><entry><title>Словарь терминов</title><link href="http://openwrt2ru.github.io/glossary.html" rel="alternate"></link><updated>2014-12-11T00:28:00+03:00</updated><author><name>dim</name></author><id>tag:openwrt2ru.github.io,2014-12-11:glossary.html</id><summary type="html">&lt;div class="section" id="buildroot"&gt;
 &lt;h2&gt;buildroot&lt;/h2&gt;
 &lt;p&gt;Buildroot - это набор make-файлов (Makefile) и патчей, которые вместе позволяют упростить подготовку исходников к компиляции и кросс-компиляцию тулчейна и корневой файловой системы для целевой платофрмы.&lt;/p&gt;
 &lt;p&gt;Подробнее можно прочитать в &lt;a class="reference external" href="https://downloads.openwrt.org/docs/buildroot-documentation.html"&gt;Buildroot Documentation&lt;/a&gt;&lt;/p&gt;
@@ -57,6 +57,8 @@
 &lt;li&gt;проекты, созданные энтузиастами и участниками&lt;/li&gt;
 &lt;li&gt;статьи по настройке и использованию&lt;/li&gt;
 &lt;/ul&gt;
-</summary></entry><entry><title>О проекте</title><link href="http://openwrt2ru.github.io/about.html" rel="alternate"></link><updated>2010-11-29T23:37:00+03:00</updated><author><name>openwrt2ru Team</name></author><id>tag:openwrt2ru.github.io,2010-11-29:about.html</id><summary type="html">&lt;p&gt;Кто и зачем это делает.&lt;/p&gt;
+</summary></entry><entry><title>О проекте</title><link href="http://openwrt2ru.github.io/about.html" rel="alternate"></link><updated>2010-11-29T23:37:00+03:00</updated><author><name>dim</name></author><id>tag:openwrt2ru.github.io,2010-11-29:about.html</id><summary type="html">&lt;p&gt;Этот проект создается сообществом, объединенным целью сделать использование OpenWRT более доступным для русскоязычных пользователей. Основная аудитория проекта это люди, желающие создавать (например, в качестве хобби) устройства с OpenWRT &amp;quot;под капотом&amp;quot;, но не обладающие достаточными для этого навыками.&lt;/p&gt;
+&lt;p&gt;Веб-часть проекта построена на базе &lt;a class="reference external" href="http://getpelican.com"&gt;Pelican&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Тема сайта - доработанная &lt;a class="reference external" href="https://github.com/getpelican/pelican-themes/tree/master/gum"&gt;gum&lt;/a&gt; (создана с помощью &lt;a class="reference external" href="http://gumbyframework.com"&gt;Gumby Framework&lt;/a&gt;)&lt;/p&gt;
 </summary></entry><entry><title>Руководство по установке</title><link href="http://openwrt2ru.github.io/how-to-install.html" rel="alternate"></link><updated>2010-11-28T23:36:00+03:00</updated><author><name>openwrt2ru Team</name></author><id>tag:openwrt2ru.github.io,2010-11-28:how-to-install.html</id><summary type="html">&lt;p&gt;В этом туториале рассмотрим как быстро и безболезненно стартовать OpenWrt на базе серийного роутера MR3020.&lt;/p&gt;
 </summary><category term="howto"></category></entry></feed>
