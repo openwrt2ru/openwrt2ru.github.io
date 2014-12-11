@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>OpenWRT to Russian</title><link href="http://openwrt2ru.github.io/" rel="alternate"></link><link href="http://openwrt2ru.github.io/feeds/frontpage.atom.xml" rel="self"></link><id>http://openwrt2ru.github.io/</id><updated>2014-11-28T23:28:00+03:00</updated><entry><title>Первая запись</title><link href="http://openwrt2ru.github.io/first-article.html" rel="alternate"></link><updated>2014-11-28T23:28:00+03:00</updated><author><name>openwrt2ru Team</name></author><id>tag:openwrt2ru.github.io,2014-11-28:first-article.html</id><summary type="html">&lt;p&gt;На этом сайте собраны различные материалы, посвященные использованию OpenWRT:&lt;/p&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;проекты, созданные энтузиастами и участниками&lt;/li&gt;
-&lt;li&gt;статьи по настройке и использованию&lt;/li&gt;
+&lt;li&gt;проекты, созданные энтузиастами и участниками проекта&lt;/li&gt;
+&lt;li&gt;статьи по настройке и использованию OpenWRT&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;В Google Groups есть группа &lt;a class="reference external" href="https://groups.google.com/forum/?utm_medium=email&amp;amp;utm_source=footer#!forum/openwrt2ru"&gt;OpenWrt по-русски&lt;/a&gt;, присоединяйтесь!&lt;/p&gt;
 </summary></entry></feed>

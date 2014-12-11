@@ -54,9 +54,10 @@
 &lt;/ol&gt;
 </summary></entry><entry><title>Первая запись</title><link href="http://openwrt2ru.github.io/first-article.html" rel="alternate"></link><updated>2014-11-28T23:28:00+03:00</updated><author><name>openwrt2ru Team</name></author><id>tag:openwrt2ru.github.io,2014-11-28:first-article.html</id><summary type="html">&lt;p&gt;На этом сайте собраны различные материалы, посвященные использованию OpenWRT:&lt;/p&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;проекты, созданные энтузиастами и участниками&lt;/li&gt;
-&lt;li&gt;статьи по настройке и использованию&lt;/li&gt;
+&lt;li&gt;проекты, созданные энтузиастами и участниками проекта&lt;/li&gt;
+&lt;li&gt;статьи по настройке и использованию OpenWRT&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;В Google Groups есть группа &lt;a class="reference external" href="https://groups.google.com/forum/?utm_medium=email&amp;amp;utm_source=footer#!forum/openwrt2ru"&gt;OpenWrt по-русски&lt;/a&gt;, присоединяйтесь!&lt;/p&gt;
 </summary></entry><entry><title>О проекте</title><link href="http://openwrt2ru.github.io/about.html" rel="alternate"></link><updated>2010-11-29T23:37:00+03:00</updated><author><name>dim</name></author><id>tag:openwrt2ru.github.io,2010-11-29:about.html</id><summary type="html">&lt;p&gt;Этот проект создается сообществом, объединенным целью сделать использование OpenWRT более доступным для русскоязычных пользователей. Основная аудитория проекта это люди, желающие создавать (например, в качестве хобби) устройства с OpenWRT &amp;quot;под капотом&amp;quot;, но не обладающие достаточными для этого навыками.&lt;/p&gt;
 &lt;p&gt;Веб-часть проекта построена на базе &lt;a class="reference external" href="http://getpelican.com"&gt;Pelican&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Тема сайта - доработанная &lt;a class="reference external" href="https://github.com/getpelican/pelican-themes/tree/master/gum"&gt;gum&lt;/a&gt; (создана с помощью &lt;a class="reference external" href="http://gumbyframework.com"&gt;Gumby Framework&lt;/a&gt;)&lt;/p&gt;
