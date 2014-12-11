@@ -10,22 +10,26 @@
         </h3>
       </header>
 
-      <footer class="post-info">
+      <div class="row">
+        <div class="column">
         <abbr class="published" title="{{ article.date.isoformat() }}">
           {{ article.locale_date }}
         </abbr>
+        </div>
+        <div class="column">
         {% if article.authors %}
-        <address class="vcard author">Автор 
+        <address class="vcard author">
           {% for author in article.authors|sort %}
             <a class="url fn" href="{{ SITEURL }}/{{ author.url }}"> {{ author }}</a>
           {% endfor %}
         </address>
         {% endif %}
-      </footer><!-- /.post-info -->
+        </div>
+      </div>
 
       <div class="entry-content">
         {{ article.summary }}
-      </div><!-- /.entry-content -->
+      </div>
 
       <div class="pretty primary btn">
         <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="{{ article.title|striptags }}">Читать дальше <i class="icon-arrow-right"></i></a>

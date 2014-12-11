@@ -1,22 +1,31 @@
-{% extends "index_template.html" %}
-{% block article_list %}
-<ol id="post-list">
-  {% for article in articles_page.object_list %}
-  {% if article.category == 'frontpage' %}
-  <li>
-    <article class="hentry">
-      <header>
-        <h3 class="entry-title">
-          <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="{{ article.title|striptags }}">{{ article.title }}</a>
-        </h3>
-      </header><!-- /.post-info -->
+{% extends "base.html" %}
+{% block content %}
+<section id="content">
+  {% block content_title %}
+  {% endblock %}
+  <div class="row">
+    <div class="eleven columns">
+      <ol id="post-list">
+        {% for article in articles_page.object_list %}
+        {% if article.category == 'frontpage' %}
+        <li>
+          <article class="hentry">
+            <header>
+              <h3 class="entry-title">
+                <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="{{ article.title|striptags }}">{{ article.title }}</a>
+              </h3>
+            </header><!-- /.post-info -->
 
-      <div class="entry-content">
-        {{ article.content }}
-      </div><!-- /.entry-content -->
-    </article>
-  </li>
-  {% endif %}
-  {% endfor %}
-</ol><!-- /#posts-list -->
-{% endblock article_list %}
+            <div class="entry-content">
+              {{ article.content }}
+            </div><!-- /.entry-content -->
+          </article>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ol><!-- /#posts-list -->
+    </div><!-- /.eleven.columns -->
+  {% include 'sidebar.html' %}
+  </div><!-- /.row -->
+</section><!-- /#content -->
+{% endblock content %}

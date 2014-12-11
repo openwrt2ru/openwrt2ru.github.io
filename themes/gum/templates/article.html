@@ -9,21 +9,25 @@
           <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
           title="{{ article.title|striptags }}">{{ article.title }}</a>
         </h3>
-        {% import 'translations.html' as translations with context %}
-        {{ translations.translations_for(article) }}
       </header>
 
       <footer class="post-info">
-        <abbr class="published" title="{{ article.date.isoformat() }}">
-          {{ article.locale_date }}
-        </abbr>
-        {% if article.authors %}
-        <address class="vcard author">By 
-          {% for author in article.authors|sort %}
-            <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
-          {% endfor %}
-        </address>
-        {% endif %}
+        <div class="row">
+          <div class="column">
+          <abbr class="published" title="{{ article.date.isoformat() }}">
+            {{ article.locale_date }}
+          </abbr>
+          </div>
+          <div class="column">
+          {% if article.authors %}
+          <address class="vcard author">
+            {% for author in article.authors|sort %}
+              <a class="url fn" href="{{ SITEURL }}/{{ author.url }}"> {{ author }}</a>
+            {% endfor %}
+          </address>
+          {% endif %}
+          </div>
+        </div>
       </footer><!-- /.post-info -->
 
       <div class="entry-content">

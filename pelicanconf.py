@@ -21,12 +21,8 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('OpenWRT', 'http://openwrt.org/'),)
-
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+#SOCIAL = (('OpenWRT', 'http://openwrt.org/'),)
 
 MENUITEMS = (('Блог', '/category/blog.html'),
              ('Руководства', '/category/tutorials.html'),
